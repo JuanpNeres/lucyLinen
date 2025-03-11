@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+:root{
+    --fonte-primaria: "Lexend", sans-serif;
+}
+
+body{
+    background-color: pink;
+}
+
+.titulo{
+    text-align: center;
+    font-family: var(--fonte-primaria);
+}
+
+.principal{
+    padding: 5% 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao{
+    width: 50%;  
+    text-align: justify, right;
+    font-family: var(--fonte-primaria);
+    font-size: 1.25rem;
+}
+
+.fotoLucy{
+    width: 20%;
+    border: 2px solid #000000;
+    border-radius: 8px;
+}
