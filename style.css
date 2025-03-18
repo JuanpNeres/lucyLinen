@@ -24,6 +24,8 @@ body{
     text-align: justify, right;
     font-family: var(--fonte-primaria);
     font-size: 1.25rem;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
 .fotoLucy{
