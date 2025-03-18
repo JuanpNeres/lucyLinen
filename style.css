@@ -11,25 +11,47 @@ body{
 .titulo{
     text-align: center;
     font-family: var(--fonte-primaria);
+    text-decoration: underline;
 }
 
 .principal{
     padding: 5% 15%;
     display: flex;
     justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 90px;
+}
+
+.borda_apresentacao{
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 5px 5px 5px 5px;  
 }
 
 .apresentacao{
     width: 50%;  
     text-align: justify, right;
     font-family: var(--fonte-primaria);
-    font-size: 1.25rem;
-    border: 2px solid black;
-    border-radius: 8px;
+    font-size: 1.25rem;   
 }
 
 .fotoLucy{
-    width: 20%;
+    width: 23%;
     border: 2px solids;
     border-radius: 8px;
+}
+
+.principal_2{
+    background-image: url(./assets/foto_mesa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.texto_produtos{
+    font-family: var(--fonte-primaria);
+    font-size: 1.25rem;
+    text-align: center;
+    color: white;
 }
