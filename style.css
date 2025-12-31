@@ -2,6 +2,20 @@
 
 :root{
     --fonte-primaria: "Lexend", sans-serif;
+    --color-top: #ffc0cb; /* cor superior do gradiente (rosa claro) */
+    --color-bottom: #ffffff; /* cor inferior do gradiente (branco) */
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    overflow-y: auto;
+}
+
+.degrade{
+    height: 120px; 
+    width: 100%;
+    background: linear-gradient(180deg, var(--color-top) 0%, var(--color-bottom) 100%);
 }
 
 body{
@@ -30,28 +44,31 @@ body{
 
 .apresentacao{
     width: 50%;  
-    text-align: justify, right;
+    text-align: justify;
     font-family: var(--fonte-primaria);
     font-size: 1.25rem;   
 }
 
 .fotoLucy{
     width: 23%;
-    border: 2px solids;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.fotoMesa{
+    display: block;
+    margin: 20px auto 0;
+    max-width: 80%;
+    height: auto;
     border-radius: 8px;
 }
 
 .principal_2{
-    background-image: url(./assets/foto_mesa.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: white;
 }
 
 .texto_produtos{
     font-family: var(--fonte-primaria);
     font-size: 1.25rem;
     text-align: center;
-    color: white;
 }
